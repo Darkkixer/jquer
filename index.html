@@ -33,7 +33,6 @@ $( ".selector" ).checkboxradio( "option", "theme", "a" );
 $( ".selector" ).checkboxradio( "disable" );
 $( ".selector" ).checkboxradio( "enable" );
 
-		
 	</script>
 	
 	
@@ -48,31 +47,97 @@ $( ".selector" ).checkboxradio( "enable" );
 		<div data-role="content">
 			<p>Aplicacion de phonegap que utiliza la libreria de jquerymobile.</p>
 			<p id="appInfo">Iniciando.....</p>
+             
 		</div>
 		
         <div data-role="collapsible">
 			<h3>Header swatch A</h3>
 			<p>I'm the collapsible content with a themed content block set to "a".</p>
 		</div>
-
+ 
 		
 		<div data-role="footer" data-position="fixed">
 			<h1>PhoneGap UTM</h1>
 		</div>
-		
-		<form>
+         <form>
 <fieldset data-role="controlgroup">
-<legend>Pendientes</legend>
+<legend>Reportes</legend>
 <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
-<label for="radio-choice-1">Cat</label>
+<label for="radio-choice-1">Pendiente</label>
 <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
-<label for="radio-choice-2">Dog</label>
+<label for="radio-choice-2">Abierto</label>
 <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
-<label for="radio-choice-3">Hamster</label>
-<input type="radio" name="radio-choice" id="radio-choice-4" value="choice-4" />
-<label for="radio-choice-4">Lizard</label>
+<label for="radio-choice-3">Terminado</label>
+
+
 </fieldset>
 </form>
+<div data-role="fieldcontain">
+<fieldset data-role="controlgroup">
+<legend>Fecha de emision del reporte:</legend>
+<label for="select-choice-month">Month</label>
+<select name="select-choice-month" id="select-choice-month">
+<option>Mes</option>
+<option value="jan">Enero</option>
+<option value="feb">Febrero</option>
+<option value="mar">Marzo</option>
+<option value="abr">Abril</option>
+<option value="may">Mayo</option>
+<option value="jun">Junio</option>
+<option value="jul">Julio</option>
+<option value="ago">Agosto</option>
+<option value="sep">septiembre</option>
+<option value="oct">Octbre</option>
+<option value="nov">Noviembre</option>
+<option value="dic">Diciembre</option>
+
+</select>
+<label for="select-choice-day">Day</label>
+<select name="select-choice-day" id="select-choice-day">
+<option>Dia</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="9">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<label for="select-choice-year">Year</label>
+<select name="select-choice-year" id="select-choice-year">
+<option>Año</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<!-- etc. -->	
+</select>
+</fieldset>
+</div>
 	</div>
 	
 </body>
